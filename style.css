@@ -1,0 +1,227 @@
+.container
+{
+    background-color: rgb(255, 255, 255);
+    width: 334px;
+    height: 581px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.menu
+{
+    height: 20px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.022);
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+}
+.time
+{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(95, 89, 89);
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 3px;
+    position: fixed;
+}
+.wifi
+{
+    display: inline-block;
+    margin-left: 278px;
+    position: absolute;
+    
+}
+.battery
+{
+    display: inline-block;
+    margin-left: 302px;
+    position: absolute;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 10px;
+}
+.logo .title
+{
+    font-family: 'Caramel', cursive;
+    font-size: 50px;
+    margin-left: 9px;
+    margin-top: -7px;
+    
+}
+.chat img
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    padding-right: 3px;
+}
+.status_bar
+{
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+.circle
+{
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(to left,red,purple);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 14px;
+    padding: 2px;
+    animation: cir 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes cir 
+{
+    0%{
+        background: linear-gradient(to left,red,purple);
+    }
+    50%{
+        background: linear-gradient(to left,rgb(157, 6, 76),rgb(255, 81, 0));
+    }
+    100%{
+        background: linear-gradient(to left,purple,red);
+    }
+}
+.ci
+{
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+.name
+{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.name img
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.name p
+{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 33px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.post
+{
+    width: auto;
+    height: 345px;
+    background-color: rgb(255, 255, 255);
+}
+.footer
+{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -20px;
+}
+.footer .oi 
+{
+    display: inline-block;
+}
+.oi img
+{
+    height: 30px;
+    width: 30px;
+    margin-left: 28px;
+    margin-top: 15px;
+}
+#imgprofile
+{
+    background-image: url(./img/imgprofile.jpg);
+}
+#naruto
+{
+    background-image: url(./img/naruto.jpg);
+    background-size: 85px 53px;
+    background-repeat: no-repeat;
+}
+#mikey
+{
+    background-image: url(./img/mikey.jpg);
+    background-size: 61px 58px;
+}
+#gojo
+{
+    background-image: url(./img/gojo.jpg);
+    background-size: 85px 59px;
+}
+.pic
+{
+    display: flex;
+    justify-content: center;
+}
+.pic img
+{
+    width: 186px;
+    height: 230px;
+    margin-top: 5px;
+}
+.comment
+{
+    margin-top: 5px;
+    display: inline-block;
+}
+.comment img
+{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+#save
+{
+    margin-left: 200px;
+}
+.likes
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 603;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+.date
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    margin-top: 2px;
+    margin-left: 8px;
+    color: gray;
+}
+.status_bar p
+{
+    display: inline-block;
+    margin: 0;
+    margin-left: 40px;
+}
+.homebtn
+{
+    width: 25px;
+    height: 8px;
+    border-radius: 6px;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 157px;
+}
